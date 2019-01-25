@@ -50,6 +50,4 @@ Jianxin Wang, jxwang@csu.edu.cn
 # 5. How to cite?
 If you use this tool, please cite the following work.
 
-Hongdong Li, Yunpei Xu, Cuixiang Lin and Jianxin Wang, Cell Forest: Accurate Clustering of Single Cells Through Consensus Feature Selection, 2018, submitted 
-
-Developed at Center for Bioinformatics, School of Computer Science and  engineering, Central South University, Changsha, P.R. China. 
+Hongdong Li, Yunpei Xu, Cuixiang Lin and Jianxin Wang, Cell Forest: Accurate Clustering of Single Cells Through Consensus Feature Selection, 2018, submitted  
