@@ -34,8 +34,8 @@ Step 3: in R command window, run the following command to see the help document 
 ```
 Step 4: At the end of the help page, there is an example code. Copy these codes to command to run as follows:
 ```
-data(Sasawaga)
-result = CellForest(data,kcluster = kprior,N = 10)
+data(cfdemo)
+result = CellForest(data,kcluster = 3,N = 10)
 performance = evalcluster(label,result$cluster)
 ```
 
