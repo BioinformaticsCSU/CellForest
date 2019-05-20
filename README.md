@@ -1,13 +1,13 @@
 
 # 1. Cell Forest
 ## Description
-Cell Forest is a method for single cell clustering that is aimed at improving clustering accuracies through feature selection. Based on a large-scale analysis of 18 real world scRNA-seq datasets that cover a wide spectrum of biological scenarios, it was found that Cell Forest achieved, on average, superior performances to six benchmark methods inlcuding RAFSIL2, SIMLR and SC3. 
+Cell Forest is a method for single cell clustering that is aimed at improving clustering accuracies through feature selection. Based on a large-scale analysis of 20 real world scRNA-seq datasets that cover a wide spectrum of biological scenarios, it was found that Cell Forest achieved, on average, superior performances to six benchmark methods inlcuding RAFSIL2, SIMLR and SC3. 
 
 ## Download
 Cell Forest is implemented as an R package, which is freely available for non-commercial use. 
 
 Version Changes 
-[CellForest_0.1.0.tar.gz](https://github.com/BioinformaticsCSU/CellForest/blob/master/CellForest_0.1.0.tar.gz)
+[CellForest_0.2.0.tar.gz](https://github.com/BioinformaticsCSU/CellForest/blob/master/CellForest_0.2.0.tar.gz)
 
 # 2. Install
 
@@ -34,8 +34,8 @@ Step 3: in R command window, run the following command to see the help document 
 ```
 Step 4: At the end of the help page, there is an example code. Copy these codes to command to run as follows:
 ```
-data(cfdemo)
-result = CellForest(data,kcluster = 3,N = 10)
+data(Engel)
+result = CellForest(data,kcluster = kprior,rep = 1,sampleLrep = 10,thresholdMethod = "meansd")
 performance = evalcluster(label,result$cluster)
 ```
 
