@@ -1,0 +1,14 @@
+Package: CellForest
+Type: Package
+Title: CellForest: a supervised feature selection-based single cell
+        clustering method.
+Version: 0.2.0
+Depends: R (>= 3.2.0), gplots, foreach, doParallel , randomForest
+Author: Hongdong Li, lhdcsu@gmail.com
+Maintainer: Yunpei Xu <xu_yunpei@csu.edu.cn>
+Description: Cell Forest is a supervised feature selection-based single cell clustering method, which is built on the hypothesis that using only a subset of cell cluster related genes could improve accuracies for cell clustering .
+License: gnu
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2019-08-01 02:19:59 UTC; 17951
