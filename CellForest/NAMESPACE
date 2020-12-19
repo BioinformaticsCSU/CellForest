@@ -1,3 +1,5 @@
 exportPattern("^[[:alpha:]]+")
 
 export(CellForest)
+
+importFrom("stats", "as.dist", "cor", "dist", "kmeans", "lm", "prcomp","quantile")
