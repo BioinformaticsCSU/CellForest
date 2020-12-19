@@ -35,7 +35,7 @@ Step 3: in R command window, run the following command to see the help document 
 Step 4: At the end of the help page, there is an example code. Copy these codes to command to run as follows:
 ```
 data(CFDemo)
-result = CellForest(data,kcluster = kprior)
+result = CellForest(data,k = kprior)
 performance = evalcluster(label,result$cluster)
 ```
 
